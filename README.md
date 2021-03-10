@@ -25,26 +25,45 @@ Added universe
 ## (Apt) Packages that we have modified (**), removed (-) or added (+) - Including dependancies
 
 Removed aisleriot
+
 Removed gnome-mahjongg
+
 Removed gnome-mines
+
 Removed gnome-sudoku
+
 Removed evince
+
 Removed libreoffice
+
 Removed rhythmbox
+
 Removed remmina
+
 Removed shotwell
+
 Removed thunderbird
+
 Removed totem
+
 Removed snapd
+
 Removed firefox
+
 Removed gedit
+
 Removed cheese
+
 Removed gnome-calculator
+
 Removed gnome-calendar
+
 Removed gnome-font-viewer
+
 Removed gnome-characters
 
 Added gnome-tweak-tool
+
 Added Flatpak
 
 Modified gnome-shell-extensions [Installed via script: apt-get install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1)]
@@ -55,14 +74,23 @@ Added Flathub
 ## Flatpak Packages that we have modified (**), removed (-) or added (+) - Including dependancies
 
 Added Firefox
+
 Added Gedit
+
 Added Cheese
+
 Added gnome-calculator
+
 Added gnome-clocks
+
 Added gnome-calendar
+
 Added gnome-photos
+
 Added gnome-characters
+
 Added gnome-font-viewer
+
 Added gnome-contacts
 
 ## Scripts
@@ -75,8 +103,6 @@ fetch.sh -> /etc/skel
 .bashrc -> /etc/skel
 
 apply-theme.sh -> /etc/profile.d/
-
-(It is important to note that we have ran "chmod -R 777 /etc/profile.d/")
 
 ## Wallpapers:
 Wallpapers have been placed in both /usr/share/backgrounds and ~/Pictures/
