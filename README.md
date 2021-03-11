@@ -144,4 +144,4 @@ Jaiden Collins - Website Developer
 
 Website link: https://github.com/cobwebdev/celos-website
 
-### Please join the Cob:web Development discord to talk to us and contribute to our projects: https://cob-web.dev/discord
+### Please join the Cob:web Development discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
