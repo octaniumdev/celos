@@ -142,6 +142,8 @@ Adam Salt - Lead Developer
 
 Jaiden Collins - Website Developer
 
+Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require 777 permissions
+
 Website link: https://github.com/cobwebdev/celos-website
 
 ### Please join the Cob:web Development discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
