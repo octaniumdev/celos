@@ -123,6 +123,23 @@ You can find our modified Adwaita Shell theme in our repositories.
 We are using the "fluent" icon theme
 https://www.gnome-look.org/p/1477945/
 
+## Plymouth Theme
+
+We are using a modified version of the Weyll-logo theme, which can be found on our GitHub
+
+Original theme: https://www.gnome-look.org/p/1000034/
+
+Once this theme has been placed in /usr/share/plymouth you need to run some commands to update initramfs;
+
+```
+update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/weyll-logo/weyll-logo.plymouth 200
+update-alternatives --set default.plymouth /usr/share/plymouth/themes/weyll-logo/weyll-logo.plymouth
+update-initramfs -u
+update-grub
+apt update && apt upgrade
+```
+
+
 ## Others
 
 We have modified the file in "/usr/share/glib-2.0/schemas/10-ubuntu-settings.gschema.override" in order for our Fluent icons, Wallpaper, and Adwaita-dark theme to apply by default.
