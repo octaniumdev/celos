@@ -1,0 +1,75 @@
+# Make new ISO
+
+[Change sources]
+/etc/apt/
+*drag sources.list in directory*
+
+
+[Get Universe and Upgrade Packages]
+apt update && apt upgrade && apt install vim && add-apt-repository universe
+
+[Remove all GNOME games]
+apt remove aisleriot gnome-mahjongg gnome-mines gnome-sudoku && apt-get autoremove --purge evince && apt-get remove --purge libreoffice* && apt-get purge --auto-remove rhythmbox && apt-get purge --auto-remove remmina && apt-get purge --auto-remove shotwell && apt-get purge --auto-remove thunderbird && apt-get purge --auto-remove totem && apt-get autoremove --purge snapd && apt-get autoremove
+
+[clean & autoremove]
+apt-get clean && apt-get autoremove
+
+[Get GNOME Tweaks and it's extensions]
+apt install gnome-tweak-tool
+apt-get install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1)
+
+[Install flatpak and flathub]
+apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+[Delete core apps]
+apt remove firefox gedit cheese gnome-calculator gnome-calendar gnome-font-viewer gnome-characters && apt autoremove
+
+[Install core apps]
+flatpak install flathub org.mozilla.firefox && flatpak install flathub org.gnome.gedit && flatpak install flathub org.gnome.Cheese && flatpak install flathub org.gnome.Calculator && flatpak install flathub org.gnome.clocks && flatpak install flathub org.gnome.Calendar && flatpak install flathub org.gnome.Photos && flatpak install flathub org.gnome.Characters && flatpak install flathub org.gnome.font-viewer && flatpak install flathub org.gnome.Contacts
+
+[Place fetch file and .bashrc in home directory]
+cd /etc/skel/
+*Drag fetch.sh in*
+*Drag .bashrc in*￼
+mkdir Pictures/
+cd Pictures
+mkdir wallpapers
+*drag wallpapers in*
+
+[Place the apply theme in the login directory]
+cd /etc/profile.d/
+*Drag file in*
+chmod -R 777 /etc/profile.d/
+
+[Put the wallpaper, splash, themes and icons in corrisponding folders] * THERE IS NO CURRENT SPLASH/PLYMOUTH THEME
+cd /usr/share/[themes/icons/backgrounds]
+
+[Custom GTK theme]
+
+/custom-root/usr/share/glib-2.0/ubuntu-settings.gschema.override
+[org.gnome.desktop.interface:ubuntu] = App theme, change "Yaru" to "Adwaita-dark", Change icon "Yaru" to "fluent-icons"
+Change favourite apps to "ubiquity.desktop, org.mozilla.firefox.desktop, nautilus.desktop, org.gnome.gedit.desktop, org.gnome.Calendar.desktop"
+
+[Update flatpak]
+flatpak update
+
+[Update os-release]
+cd /etc/
+vim os-releases
+
+
+[Delete Vim]
+apt remove vim
+apt autoremove
+
+[Change the GRUB to say our name thing]
+/custom-disk/boot/grub/grub.cfg
+Change "Ubuntu" to "CelOS" & "Ubuntu (Safe Graphics)" to "CelOS (safe graphics)
+
+[Go to plymouth directory and drag the files]
+update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/weyll-logo/weyll-logo.plymouth 200
+update-alternatives --set default.plymouth /usr/share/plymouth/themes/weyll-logo/weyll-logo.plymouth
+update-initramfs -u
+update-grub
+apt update && apt upgrade
