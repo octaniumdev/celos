@@ -11,7 +11,7 @@ Last ISO release: (unreleased)
 
 Free and open source software is at the heart of Cob:web Development, and so we are going to ensure that all of the packages, scripts and tools provided pre and post installation are open source, free and findable. CelOS is licensed under the MIT license so you can copy, re-create, redistribute and contribute to CelOS!
 
-## Based on Ubuntu (Hersute Hippo Daily Build)
+## Based on Ubuntu (Hirsute Hippo Daily Build)
 
 CelOS, at it's fundementals, is very heavily based on Ubuntu, we will be using a large majority of Ubuntu's packages unless we have specified whether or not we have removed, replaced, modified or added new packages (and their dependancies).
 
