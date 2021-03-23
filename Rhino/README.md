@@ -5,7 +5,7 @@ CelOS is an Ubuntu-based Linux distribution with Flatpak at its heart. It's a po
 
 `CelOS Rhino [Beta v1.0]`
 
-Last ISO release: 20th March 2021
+Last ISO release: (unreleased)
 
 # How to recreate CelOS & Our package list
 
