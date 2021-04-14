@@ -3,9 +3,9 @@ https://cob-web.xyz/celos/
 
 CelOS is an Ubuntu-based Linux distribution with Flatpak at its heart. It's a powerful OS with minimal design
 
-`CelOS 1 [Beta v1.3.2]`
+`CelOS 1 [Beta v1.4]`
 
-Last ISO release: 13th April 2021
+Last ISO release: 14th April 2021
 
 # How to recreate CelOS & Our package list
 
@@ -15,7 +15,7 @@ Free and open source software is at the heart of Cob:web Development, and so we 
 
 CelOS, at it's fundementals, is very heavily based on Ubuntu, we will be using a large majority of Ubuntu's packages unless we have specified whether or not we have removed, replaced, modified or added new packages (and their dependancies).
 
-## Kernel 5.8.0-48-generic
+## Kernel 5.8.0-49-generic
 
 We are using the same Kernel that Ubuntu 20.04 LTS uses. People on older builds can still receive Kernel updates through upstream and so we will try to ensure that this is kept up-to-date.
 
@@ -63,6 +63,10 @@ Removed gnome-font-viewer
 Removed gnome-characters
 
 Added gnome-tweak-tool
+
+Added gnome-software
+
+Added gnome-software-plugin-flatpak
 
 Added Flatpak
 
@@ -142,9 +146,11 @@ apt update && apt upgrade
 
 ## Others
 
-We have modified the file in "/usr/share/glib-2.0/schemas/10-ubuntu-settings.gschema.override" in order for our Fluent icons, Wallpaper, and Adwaita-dark theme to apply by default.
+We have modified the file in "/usr/share/glib-2.0/schemas/10-ubuntu-settings.gschema.override" in order for our Adwaita Icons, Wallpaper, and Adwaita-dark shell theme to apply by default.
 
 The Grub has been modified to say "CelOS 1"
+
+The plymouth theme and GDM logo have been modified
 
 /etc/os-release has been modified.
 
