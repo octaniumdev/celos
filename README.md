@@ -128,8 +128,8 @@ You can find our modified Adwaita Shell theme in our repositories.
 
 ## Icons:
 
-We are using the "fluent" icon theme
-https://www.gnome-look.org/p/1477945/
+We are using the "Adwaita icon theme" icon theme
+https://gitlab.gnome.org/GNOME/adwaita-icon-theme
 
 ## Plymouth Theme
 
