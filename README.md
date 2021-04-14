@@ -68,6 +68,10 @@ Added gnome-software
 
 Added gnome-software-plugin-flatpak
 
+Added gnome-weather
+
+Added gnome-clocks
+
 Added Flatpak
 
 Modified gnome-shell-extensions [Installed via script: apt-get install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1)]
