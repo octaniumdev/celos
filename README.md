@@ -3,9 +3,9 @@ https://cob-web.xyz/celos/
 
 CelOS is an Ubuntu-based Linux distribution with Flatpak at its heart. It's a powerful OS with minimal design
 
-`CelOS 1 [Beta v1.4]`
+`CelOS 1 [Beta v1.5]`
 
-Last ISO release: 14th April 2021
+Last ISO release: 17th April 2021
 
 # How to recreate CelOS & Our package list
 
@@ -15,7 +15,7 @@ Free and open source software is at the heart of Cob:web Development, and so we 
 
 CelOS, at it's fundementals, is very heavily based on Ubuntu, we will be using a large majority of Ubuntu's packages unless we have specified whether or not we have removed, replaced, modified or added new packages (and their dependancies).
 
-## Kernel 5.8.0-49-generic
+## Kernel 5.8.0-50-generic
 
 We are using the same Kernel that Ubuntu 20.04 LTS uses. People on older builds can still receive Kernel updates through upstream and so we will try to ensure that this is kept up-to-date.
 
@@ -62,6 +62,8 @@ Removed gnome-font-viewer
 
 Removed gnome-characters
 
+Removed ubuntu-session
+
 Added gnome-tweak-tool
 
 Added gnome-software
@@ -73,6 +75,8 @@ Added gnome-weather
 Added gnome-clocks
 
 Added Flatpak
+
+Added gnome-session
 
 Modified gnome-shell-extensions [Installed via script: apt-get install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1)]
 
