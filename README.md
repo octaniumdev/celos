@@ -151,6 +151,12 @@ update-grub
 apt update && apt upgrade
 ```
 
+## Ubiquity slideshow
+
+We have modified Ubiquity to display text and images for CelOS rather than Ubuntu. The files we have used are here:
+
+https://github.com/Cobweb-Development/celos/tree/main/Assets/ubiquity-slideshow - /usr/share/ubiquity-slideshow/
+
 
 ## Others
 
