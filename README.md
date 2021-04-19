@@ -1,11 +1,11 @@
-# CelOS - A powerful OS with minimal design
-https://cob-web.xyz/celos/
+# CelOS - A simple, easy-to-use, flatpak centric Linux distribution for everyone. 
+https://cob-web.xyz/celos/ 
 
-CelOS is an Ubuntu-based Linux distribution with Flatpak at its heart. It's a powerful OS with minimal design
+CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04 
 
-`CelOS 1 [Beta v1.5]`
+`CelOS 1 [Beta v1.6.1]`
 
-Last ISO release: 17th April 2021
+Last ISO release: 19th April 2021
 
 # How to recreate CelOS & Our package list
 
@@ -22,8 +22,10 @@ We are using the same Kernel that Ubuntu 20.04 LTS uses. People on older builds 
 ## Repositories added (Apt):
 Added universe
 
-## (Apt) Packages that we have modified (**), removed (-) or added (+) - Including dependancies
+## (Apt) Packages that we have modified, removed or added (Dependancies come installed via apt)
 
+
+### Packages we removed:
 Removed aisleriot
 
 Removed gnome-mahjongg
@@ -64,6 +66,7 @@ Removed gnome-characters
 
 Removed ubuntu-session
 
+### Packages we added:
 Added gnome-tweak-tool
 
 Added gnome-software
@@ -78,6 +81,7 @@ Added Flatpak
 
 Added gnome-session
 
+### Packages we modified:
 Modified gnome-shell-extensions [Installed via script: apt-get install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1)]
 
 ## Repositories added (Flatpak):
@@ -85,7 +89,7 @@ Added Flathub
 
 ## Flatpak Packages that we have modified (**), removed (-) or added (+) - Including dependancies
 
-Added Firefox
+Added Epiphany
 
 Added Gedit
 
@@ -157,6 +161,7 @@ We have modified Ubiquity to display text and images for CelOS rather than Ubunt
 
 https://github.com/Cobweb-Development/celos/tree/main/Assets/ubiquity-slideshow - /usr/share/ubiquity-slideshow/
 
+`/usr/share/ubuiqity-slideshow/` was given 777 permissions during this stage and removed after we have changed the files within `/usr/share/ubiquity-slideshow/`
 
 ## Others
 
@@ -184,3 +189,13 @@ Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require
 Website link: https://github.com/cobwebdev/celos-website
 
 ### Please join the Cob:web Development discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
+
+# Screenshots:
+
+<center><img src="https://i.imgur.com/uCtvoih.png"></center>
+
+<center><img src="https://i.imgur.com/Zf9cTdZ.png"></center>
+
+<center><img src="https://i.imgur.com/dTtBUZO.png"></center>
+
+<center><img src="https://i.imgur.com/shoSZ4D.png"></center>
