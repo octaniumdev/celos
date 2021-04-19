@@ -130,7 +130,8 @@ You can find the folder for our Wallpapers in the repository.
 GTK theme: Adwaita Dark,
 https://gitlab.gnome.org/GNOME/gtk/tree/master/gtk/theme/Adwaita
 
-Shell theme: Adwaita Shell (modified for our Dash-to-dock extension)
+Shell theme: Adwaita Shell 
+https://gitlab.gnome.org/GNOME/gtk/tree/master/gtk/theme/Adwaita
 
 You can find our modified Adwaita Shell theme in our repositories.
 
