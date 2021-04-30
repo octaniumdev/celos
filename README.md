@@ -127,13 +127,8 @@ You can find the folder for our Wallpapers in the repository.
 
 ## Themes
 
-GTK theme: Adwaita Dark,
+We are using the default GTK and Shell theme for GNOME, "Adwaita"
 https://gitlab.gnome.org/GNOME/gtk/tree/master/gtk/theme/Adwaita
-
-Shell theme: Adwaita Shell 
-https://gitlab.gnome.org/GNOME/gtk/tree/master/gtk/theme/Adwaita
-
-You can find our modified Adwaita Shell theme in our repositories.
 
 ## Icons:
 
