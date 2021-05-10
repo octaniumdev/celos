@@ -3,9 +3,9 @@ https://cob-web.xyz/celos/
 
 CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04 
 
-`CelOS 1 [Beta v1.6.1]`
+`CelOS 1 [Beta v1.7]`
 
-Last ISO release: 19th April 2021
+Last ISO release: 10th May 2021
 
 # How to recreate CelOS & Our package list
 
