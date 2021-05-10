@@ -180,7 +180,7 @@ https://launchpad.net/cubic
 
 Adam Salt - Lead Developer
 
-Jaiden Collins - Website Developer
+Jaiden Collins - Former Website Developer
 
 Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require 777 permissions
 
