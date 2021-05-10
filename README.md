@@ -169,6 +169,8 @@ The plymouth theme and GDM logo have been modified
 
 /etc/os-release has been modified.
 
+GDM was modified by using the default theme, to change it run `update-alternatives --config gdm3-theme.gresource`
+
 ## How can I re-create CelOS 1? 
 
 If you are on an Ubuntu-based distribution we can recommend Cubic as a live-ISO editor, and what we are currently using to create the distribution via a chroot environment.
