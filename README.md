@@ -1,11 +1,13 @@
+<center><img src="https://blogs.cob-web.xyz/images/CelOS.png" width="20%" height="20%"></center>
+
 # CelOS - A simple, easy-to-use, flatpak centric Linux distribution for everyone. 
 https://cob-web.xyz/celos/ 
 
 CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04 
 
-`CelOS 1 [Beta v1.7]`
+`CelOS 1 [Beta v2.0]`
 
-Last ISO release: 10th May 2021
+Last ISO release: 11th June 2021
 
 # How to recreate CelOS & Our package list
 
@@ -15,7 +17,7 @@ Free and open source software is at the heart of Cob:web Development, and so we 
 
 CelOS, at it's fundementals, is very heavily based on Ubuntu, we will be using a large majority of Ubuntu's packages unless we have specified whether or not we have removed, replaced, modified or added new packages (and their dependancies).
 
-## Kernel 5.8.0-50-generic
+## Kernel 5.8.0-55-generic
 
 We are using the same Kernel that Ubuntu 20.04 LTS uses. People on older builds can still receive Kernel updates through upstream and so we will try to ensure that this is kept up-to-date.
 
@@ -109,16 +111,17 @@ Added gnome-font-viewer
 
 Added gnome-contacts
 
-## Scripts
+Added Flatseal
+
+## Scripts and files
 
 /etc/skel/ is a directory where items will be placed in your "home" directory post install
-/etc/profile.d/ is a directory where scripts are ran on login
 
 fetch.sh -> /etc/skel
 
 .bashrc -> /etc/skel
 
-apply-theme.sh -> /etc/profile.d/
+gnome-initial-setup-done -> /etc/skel/.config/
 
 ## Wallpapers:
 Wallpapers have been placed in both /usr/share/backgrounds and ~/Pictures/
@@ -184,7 +187,7 @@ Jaiden Collins - Former Website Developer
 
 Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require 777 permissions
 
-Website link: https://github.com/cobwebdev/celos-website
+Website link: https://github.com/cobweb-development/website/
 
 ### Please join the Cob:web Development discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
 
@@ -197,3 +200,5 @@ Website link: https://github.com/cobwebdev/celos-website
 <center><img src="https://i.imgur.com/dTtBUZO.png"></center>
 
 <center><img src="https://i.imgur.com/shoSZ4D.png"></center>
+- Screenshots are from v1.6.1 Beta
+
