@@ -75,10 +75,6 @@ Added gnome-software
 
 Added gnome-software-plugin-flatpak
 
-Added gnome-weather
-
-Added gnome-clocks
-
 Added Flatpak
 
 Added gnome-session
@@ -110,6 +106,10 @@ Added gnome-characters
 Added gnome-font-viewer
 
 Added gnome-contacts
+
+Added gnome-weather
+
+Added gnome-clocks
 
 Added Flatseal
 
