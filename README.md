@@ -190,13 +190,21 @@ Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require
 ### Please join the Cob:web Development discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
 
 # Screenshots:
+- Screenshots are from CelOS 1-beta3
 
-<center><img src="https://i.imgur.com/uCtvoih.png"></center>
+<center><img src="https://imgur.com/xgDsXgO.png"></center>
+- Default login screen for CelOS 1
 
 <center><img src="https://i.imgur.com/Zf9cTdZ.png"></center>
+- CelOS with Light theme + Default wallpaper
 
-<center><img src="https://i.imgur.com/dTtBUZO.png"></center>
+<center><img src="https://imgur.com/pE7AjGk.png"></center>
+- CelOS activities overview + Default wallpaper
 
-<center><img src="https://i.imgur.com/shoSZ4D.png"></center>
-- Screenshots are from CelOS 1-beta3
+<center><img src="https://imgur.com/1tbzmRh.png"></center>
+- CelOS with Dark theme + Alternate wallpaper
+
+<center><img src="https://imgur.com/y3d0ztG.png"></center>
+- CelOS activities overview + Alternate wallpaper
+
 
