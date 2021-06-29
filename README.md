@@ -11,7 +11,7 @@ Last ISO release: xxth July 2021
 
 # How to recreate CelOS & Our package list
 
-Free and open source software is at the heart of Cob:web Development, and so we are going to ensure that all of the packages, scripts and tools provided pre and post installation are open source, free and findable. CelOS is licensed under the MIT license so you can copy, re-create, redistribute and contribute to CelOS!
+Free and open source software is at the heart of Cob:web-Aclevo, and so we are going to ensure that all of the packages, scripts and tools provided pre and post installation are open source, free and findable. CelOS is licensed under the MIT license so you can copy, re-create, redistribute and contribute to CelOS!
 
 ## Based on Ubuntu (20.04 LTS)
 
@@ -86,6 +86,8 @@ Modified gnome-shell-extensions [Installed via script: apt-get install $(apt sea
 Added Flathub
 
 ## Flatpak Packages that we have modified (**), removed (-) or added (+) - Including dependancies
+
+Added adwaita-dark
 
 Added Epiphany
 
@@ -174,12 +176,14 @@ The plymouth theme and GDM logo have been modified
 
 GDM was modified by using the default theme, to change it run `update-alternatives --config gdm3-theme.gresource`
 
+A one-time startup script in the "Assets" folder called "apply-theme.sh" has been placed in `/etc/profile.d/`
+
 ## How can I re-create CelOS 1? 
 
 If you are on an Ubuntu-based distribution we can recommend Cubic as a live-ISO editor, and what we are currently using to create the distribution via a chroot environment.
 https://launchpad.net/cubic
 
-# Made with love by Cob:web Development and our Open source contributors:
+# Made with love by Cob:web-Aclevo and our Open source contributors:
 
 Adam Salt - Lead Developer
 
@@ -187,7 +191,9 @@ Jaiden Collins - Former Website Developer
 
 Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require 777 permissions
 
-### Please join the Cob:web Development discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
+! NOT-Guillem#8042 (Discord) - Contributing 2 wallpapers
+
+### Please join the Cob:web-Aclevo discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
 
 # Screenshots:
 - Screenshots are from CelOS 1-beta3
@@ -196,20 +202,22 @@ Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require
 
 - Default login screen for CelOS 1
 
-<center><img src="https://imgur.com/TTHhcsK.png"></center>
-
-- CelOS with Light theme + Default wallpaper
-
-<center><img src="https://imgur.com/pE7AjGk.png"></center>
-
-- CelOS activities overview + Default wallpaper
-
 <center><img src="https://imgur.com/1tbzmRh.png"></center>
 
-- CelOS with Dark theme + Alternate wallpaper
+- CelOS with Dark theme (default) + Default wallpaper
 
 <center><img src="https://imgur.com/y3d0ztG.png"></center>
 
+- CelOS activities overview + Default wallpaper
+
+<center><img src="https://i.imgur.com/Zf9cTdZ.png"></center>
+
+- CelOS with Light theme + Alternate wallpaper
+
+<center><img src="https://imgur.com/pE7AjGk.png"></center>
+
 - CelOS activities overview + Alternate wallpaper
+
+
 
 
