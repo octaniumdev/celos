@@ -1,7 +1,7 @@
 <center><img src="https://blogs.cob-web.xyz/images/CelOS.png" width="20%" height="20%"></center>
 
 # CelOS - A simple, easy-to-use, flatpak centric Linux distribution for everyone. 
-https://cob-web.xyz/celos/ 
+https://celos.cobweb-aclevo.org
 
 CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04 
 
