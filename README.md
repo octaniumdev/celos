@@ -193,7 +193,7 @@ Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require
 
 ! NOT-Guillem#8042 (Discord) - Contributing 2 wallpapers
 
-### Please join the Cob:web-Aclevo discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
+### Please join the Cob:web-Aclevo discord to talk to us and contribute to our projects: https://discord.gg/z3GXvGtuek
 
 # Screenshots:
 - Screenshots are from CelOS 1-beta3
