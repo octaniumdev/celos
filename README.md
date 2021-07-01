@@ -5,19 +5,19 @@ https://cob-web.xyz/celos/
 
 CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04 
 
-`CelOS 1 [Beta v2.0]`
+`CelOS 1-beta3`
 
-Last ISO release: 11th June 2021
+Last ISO release: xxth July 2021
 
 # How to recreate CelOS & Our package list
 
-Free and open source software is at the heart of Cob:web Development, and so we are going to ensure that all of the packages, scripts and tools provided pre and post installation are open source, free and findable. CelOS is licensed under the MIT license so you can copy, re-create, redistribute and contribute to CelOS!
+Free and open source software is at the heart of Cob:web-Aclevo, and so we are going to ensure that all of the packages, scripts and tools provided pre and post installation are open source, free and findable. CelOS is licensed under the MIT license so you can copy, re-create, redistribute and contribute to CelOS!
 
 ## Based on Ubuntu (20.04 LTS)
 
 CelOS, at it's fundementals, is very heavily based on Ubuntu, we will be using a large majority of Ubuntu's packages unless we have specified whether or not we have removed, replaced, modified or added new packages (and their dependancies).
 
-## Kernel 5.8.0-55-generic
+## Kernel 5.8.0-59-generic
 
 We are using the same Kernel that Ubuntu 20.04 LTS uses. People on older builds can still receive Kernel updates through upstream and so we will try to ensure that this is kept up-to-date.
 
@@ -87,6 +87,8 @@ Added Flathub
 
 ## Flatpak Packages that we have modified (**), removed (-) or added (+) - Including dependancies
 
+Added adwaita-dark
+
 Added Epiphany
 
 Added Gedit
@@ -117,11 +119,11 @@ Added Flatseal
 
 /etc/skel/ is a directory where items will be placed in your "home" directory post install
 
-fetch.sh -> /etc/skel
-
 .bashrc -> /etc/skel
 
 gnome-initial-setup-done -> /etc/skel/.config/
+
+Wallpapers have been placed in -> /etc/skel/Pictures/ (~/Pictures)
 
 ## Wallpapers:
 Wallpapers have been placed in both /usr/share/backgrounds and ~/Pictures/
@@ -174,6 +176,8 @@ The plymouth theme and GDM logo have been modified
 
 GDM was modified by using the default theme, to change it run `update-alternatives --config gdm3-theme.gresource`
 
+A one-time startup script in the "Assets" folder called "apply-theme.sh" has been placed in `/etc/profile.d/`
+
 ## How can I re-create CelOS 1? 
 
 If you are on an Ubuntu-based distribution we can recommend Cubic as a live-ISO editor, and what we are currently using to create the distribution via a chroot environment.
@@ -187,18 +191,33 @@ Jaiden Collins - Former Website Developer
 
 Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require 777 permissions
 
-Website link: https://github.com/cobweb-development/website/
+! NOT-Guillem#8042 (Discord) - Contributing 2 wallpapers
 
-### Please join the Cob:web-Aclevo discord to talk to us and contribute to our projects: https://discord.gg/z3GXvGtuek
+### Please join the Cob:web-Aclevo discord to talk to us and contribute to our projects: https://cob-web.xyz/discord
 
 # Screenshots:
+- Screenshots are from CelOS 1-beta3
 
-<center><img src="https://i.imgur.com/uCtvoih.png"></center>
+<center><img src="https://imgur.com/xgDsXgO.png"></center>
+
+- Default login screen for CelOS 1
+
+<center><img src="https://imgur.com/1tbzmRh.png"></center>
+
+- CelOS with Dark theme (default) + Default wallpaper
+
+<center><img src="https://imgur.com/y3d0ztG.png"></center>
+
+- CelOS activities overview + Default wallpaper
 
 <center><img src="https://i.imgur.com/Zf9cTdZ.png"></center>
 
-<center><img src="https://i.imgur.com/dTtBUZO.png"></center>
+- CelOS with Light theme + Alternate wallpaper
 
-<center><img src="https://i.imgur.com/shoSZ4D.png"></center>
-- Screenshots are from v1.6.1 Beta
+<center><img src="https://imgur.com/pE7AjGk.png"></center>
+
+- CelOS activities overview + Alternate wallpaper
+
+
+
 
