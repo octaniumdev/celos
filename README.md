@@ -198,23 +198,23 @@ Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require
 # Screenshots:
 - Screenshots are from CelOS 1-beta3
 
-<center><img src="https://imgur.com/xgDsXgO.png"></center>
+<center><img src="Screenshots/1.png"></center>
 
 - Default login screen for CelOS 1
 
-<center><img src="https://imgur.com/1tbzmRh.png"></center>
+<center><img src="Screenshots/2.png"></center>
 
 - CelOS with Dark theme (default) + Default wallpaper
 
-<center><img src="https://imgur.com/y3d0ztG.png"></center>
+<center><img src="Screenshots/3.png"></center>
 
 - CelOS activities overview + Default wallpaper
 
-<center><img src="https://i.imgur.com/Zf9cTdZ.png"></center>
+<center><img src="Screenshots/4.png"></center>
 
 - CelOS with Light theme + Alternate wallpaper
 
-<center><img src="https://imgur.com/pE7AjGk.png"></center>
+<center><img src="Screenshots/5.png"></center>
 
 - CelOS activities overview + Alternate wallpaper
 
