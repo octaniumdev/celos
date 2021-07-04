@@ -4,6 +4,7 @@
 
 # Proposed changes:
 
-- Hide livepatch & support icons
+- Hide livepatch & support icons.
 - Edit /etc/grub.d/
 - Make changes on Ubiquity installer.
+- Reinstall Flatseal.
