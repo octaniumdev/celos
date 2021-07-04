@@ -4,7 +4,4 @@
 
 # Proposed changes:
 
-- Hide livepatch & support icons.
-- Edit /etc/grub.d/
-- Make changes on Ubiquity installer.
-- Reinstall Flatseal.
+- Fix bugs present with the forced Flatpak upgrade.
