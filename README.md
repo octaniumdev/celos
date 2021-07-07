@@ -1,4 +1,4 @@
-<center><img src="https://blogs.cobweb-aclevo.org/images/CelOS.png" width="20%" height="20%"></center>
+<center><img src="https://celos.cobweb-aclevo.org/images/CelOS.png" width="20%" height="20%"></center>
 
 # CelOS - A simple, easy-to-use, flatpak centric Linux distribution for everyone. 
 https://celos.cobweb-aclevo.org
