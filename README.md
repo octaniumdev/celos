@@ -7,7 +7,7 @@ CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone 
 
 `CelOS 1-beta4`
 
-Last ISO release: 5th July 2021
+Last ISO release: 7th July 2021
 
 # How to recreate CelOS & Our package list
 
