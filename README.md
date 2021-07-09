@@ -5,9 +5,9 @@ https://celos.cobweb-aclevo.org
 
 CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04 
 
-`CelOS 1-beta4`
+`CelOS 1-beta5`
 
-Last ISO release: 7th July 2021
+Last ISO release: [] July 2021
 
 # How to recreate CelOS & Our package list
 
@@ -168,11 +168,15 @@ https://github.com/Cobweb-Development/celos/tree/main/Assets/ubiquity-slideshow 
 
 We have modified the file in "/usr/share/glib-2.0/schemas/10-ubuntu-settings.gschema.override" in order for our Adwaita Icons, Wallpaper, and Adwaita-dark shell theme to apply by default.
 
-The Grub has been modified to say "CelOS 1"
+The Grub has been modified to say "CelOS 1 GNU/Linux", the "grub" folder in "Assets" has two files related to modifying grub.
+
+The file called "grub" should be placed in `/etc/default`
+
+The file called custom.cfg should be placed in `/boot/grub`
 
 The plymouth theme and GDM logo have been modified
 
-/etc/os-release has been modified.
+/etc/os-release and /etc/lsb-release has been modified.
 
 GDM was modified by using the default theme, to change it run `update-alternatives --config gdm3-theme.gresource`
 
@@ -186,8 +190,6 @@ https://launchpad.net/cubic
 # Made with love by Cob:web-Aclevo and our Open source contributors:
 
 Adam Salt - Lead Developer
-
-Jaiden Collins - Former Website Developer
 
 Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require 777 permissions
 
@@ -217,7 +219,3 @@ Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require
 <center><img src="Screenshots/5.png"></center>
 
 - CelOS activities overview + Alternate wallpaper
-
-
-
-
