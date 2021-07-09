@@ -1,4 +1,9 @@
-# CelOS 1-beta4 Changelog:
+# CelOS 1-beta5 Changelog:
 
-- Fixed bugs from forced Flatpak upgrade by downgrading Flatpak
-- Reinstalled Flatseal
+- No changes as of right now
+
+# Proposed changes
+
+- [Add appindicator + minimise/maximise buttons](https://github.com/Cobweb-Aclevo/celos/issues/30)
+- [Change id in /etc/os-release](https://github.com/Cobweb-Aclevo/celos/issues/29)
+- [Minor changes to Ubiquity installer](https://github.com/Cobweb-Aclevo/celos/issues/26)
