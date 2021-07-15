@@ -200,7 +200,7 @@ Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require
 ### Please join the Cob:web-Aclevo discord to talk to us and contribute to our projects: https://discord.gg/z3GXvGtuek
 
 # Screenshots:
-- Screenshots are from CelOS 1-beta3
+- Screenshots are from CelOS 1-beta5
 
 <center><img src="Screenshots/1.png"></center>
 
