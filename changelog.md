@@ -7,4 +7,5 @@
 - [Minor changes to Ubiquity installer](https://github.com/Cobweb-Aclevo/celos/issues/26)
 
 # Known issues
-[Minor changes to Ubiquity installer](https://github.com/Cobweb-Aclevo/celos/issues/26) - We changed our website during the building of this ISO image and so we will need to redo this issue.
+
+- [Minor changes to Ubiquity installer](https://github.com/Cobweb-Aclevo/celos/issues/26) - We changed our website during the building of this ISO image and so we will need to redo this issue.
