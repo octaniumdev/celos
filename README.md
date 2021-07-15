@@ -7,7 +7,7 @@ CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone 
 
 `CelOS 1-beta5`
 
-Last ISO release: [] July 2021
+Last ISO release: 15th July 2021
 
 # How to recreate CelOS & Our package list
 
@@ -173,6 +173,8 @@ The Grub has been modified to say "CelOS 1 GNU/Linux", the "grub" folder in "Ass
 The file called "grub" should be placed in `/etc/default`
 
 The file called custom.cfg should be placed in `/boot/grub`
+
+Along with this ubuntu.seed and grub.cfg were edited in the "seed" and "grub" pages of the Cubic editor.
 
 The plymouth theme and GDM logo have been modified
 
