@@ -1,10 +1,8 @@
-# CelOS 1-beta5 Changelog:
+# CelOS 1-beta6 Changelog:
 
-- [Add appindicator + minimise/maximise buttons](https://github.com/Cobweb-Aclevo/celos/issues/30)
-- [Change id in /etc/os-release](https://github.com/Cobweb-Aclevo/celos/issues/29)
-- [Minor changes to Ubiquity installer](https://github.com/Cobweb-Aclevo/celos/issues/26)
-- [Edit grub to display "CelOS 1 GNU/Linux"](https://github.com/Cobweb-Aclevo/celos/issues/22)
+- No Completed changes yet.
 
-# Known issues
+# Proposed changes
 
-- [Minor changes to Ubiquity installer](https://github.com/Cobweb-Aclevo/celos/issues/26) - We changed our website during the building of this ISO image and so we will need to redo this issue.
+- [Fix browser on Ubiquity installer](https://github.com/Cobweb-Aclevo/celos/issues/26) - The browser is showing a screenshit with the old website, update this to show the new website.
+- [Hide livepatch & language support icons](https://github.com/Cobweb-Aclevo/celos/issues/11) Livepatch and language support icons should be hidden as they are apps from Ubuntu.
