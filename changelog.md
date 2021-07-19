@@ -8,3 +8,4 @@
 # Known issues
 
 - [Minor changes to Ubiquity installer](https://github.com/Cobweb-Aclevo/celos/issues/26) - We changed our website during the building of this ISO image and so we will need to redo this issue.
+- [Change id in /etc/os-release](https://github.com/Cobweb-Aclevo/celos/issues/29) - The change in id has caused the "Drivers" application to stop working, due to it requiring "ubuntu" in the `ID`
