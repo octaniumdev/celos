@@ -1,7 +1,7 @@
 # CelOS 1-beta6 Changelog:
 
 - [Fix id in /etc/os-release(]https://github.com/Cobweb-Aclevo/celos/issues/35) - Minor issue with the `ID` field in /etc/os-release
-- [Change default shell in CelOS to ZSH and include some zsh extensions](https://github.com/Cobweb-Aclevo/celos/pull/34)
+- [Add ZSH + extension support](https://github.com/Cobweb-Aclevo/celos/pull/34)
 
 # Proposed changes
 
