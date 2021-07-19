@@ -1,6 +1,6 @@
 # CelOS 1-beta6 Changelog:
 
-- [Fix id in /etc/os-release(]https://github.com/Cobweb-Aclevo/celos/issues/35) - Minor issue with the `ID` field in /etc/os-release
+- [Fix id in /etc/os-release](https://github.com/Cobweb-Aclevo/celos/issues/35) - Minor issue with the `ID` field in /etc/os-release
 
 # Proposed changes
 
