@@ -164,21 +164,6 @@ https://github.com/Cobweb-Development/celos/tree/main/Assets/ubiquity-slideshow 
 
 `/usr/share/ubuiqity-slideshow/` was given 777 permissions during this stage and removed after we have changed the files within `/usr/share/ubiquity-slideshow/`
 
-# ZSH
-
-The default shell in CelOS (as of CelOS 1-beta6) is zsh. Along with this we have created our own custom zsh prompt theme and sourced some extensions.
-
-`.zshrc` contains the theme and aliases within ZSH.
-
-`.config/zsh-extensions` contains the ZSH extensions used in CelOS 1
-
-**Extensions used:**
-
-- [Syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - BSD3 License
-- [Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - MIT License
-
-Both of these projects are open source and so we are allowed to use them within CelOS, and have made it publicly known that we are using these within our distribution.
-
 ## Others
 
 We have modified the file in "/usr/share/glib-2.0/schemas/10-ubuntu-settings.gschema.override" in order for our Adwaita Icons, Wallpaper, and Adwaita-dark shell theme to apply by default.
