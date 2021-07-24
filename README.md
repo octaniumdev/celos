@@ -11,7 +11,7 @@ Last ISO release: 22nd July 2021
 
 # How to recreate CelOS & Our package list
 
-Free and open source software is at the heart of Cob:web-Aclevo, and so we are going to ensure that all of the packages, scripts and tools provided pre and post installation are open source, free and findable. CelOS is licensed under the MIT license so you can copy, re-create, redistribute and contribute to CelOS!
+Free and open source software is at the heart of Cob:web-Aclevo, and so we are going to ensure that all of the packages, scripts and tools provided pre and post installation are open source, free and findable. CelOS is licensed under the GPL3 license so you can copy, re-create, redistribute and contribute to CelOS!
 
 ## Based on Ubuntu (20.04 LTS)
 
