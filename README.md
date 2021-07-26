@@ -191,7 +191,7 @@ https://launchpad.net/cubic
 
 # Made with love by Cob:web-Aclevo and our Open source contributors:
 
-[Adam Salt](https://github.com/whyAdamSalt) - Lead Developer
+[whyAdamSalt](https://github.com/whyAdamSalt) - Lead Developer
 
 Rany2 (GitHub) - Contributing a bug fix so that /etc/profile.d/ does not require 777 permissions
 
