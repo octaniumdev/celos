@@ -5,9 +5,9 @@ https://celos.cobweb-aclevo.org
 
 CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04 
 
-`CelOS 1-beta6`
+`CelOS 1-beta7`
 
-Last ISO release: 22nd July 2021
+Last ISO release: xx September 2021
 
 # Table of Contents
 - [How to recreate CelOS & Our package list](#recreate-celos-our-package-list)
@@ -101,6 +101,8 @@ Added gnome-software-plugin-flatpak
 Added Flatpak
 
 Added gnome-session
+
+Added ffmpeg
 
 ### Packages we modified: <a id="package-modified"></a>
 Modified gnome-shell-extensions [Installed via script: apt-get install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1)]
