@@ -1,203 +1,47 @@
 <center><img src="https://celos.cobweb-aclevo.org/assets/CelOS.png" width="20%" height="20%"></center>
 
-# CelOS - A simple, easy-to-use, flatpak centric Linux distribution for everyone. 
+# CelOS - A simple, easy-to-use, flatpak centric Linux distribution for everyone.
 https://celos.cobweb-aclevo.org
 
-CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04 
+CelOS is a simple, easy-to-use, flatpak centric Linux distribution for everyone based on Ubuntu 20.04
 
-`CelOS 1-beta7`
+# CelOS 1
 
 Last ISO release: xx September 2021
 
-# Table of Contents
-- [How to recreate CelOS & Our package list](#recreate-celos-our-package-list)
-  - [Based on Ubuntu (20.04 LTS)](#ubuntu-based)
-  - [Kernel 5.8.0-59-generic](#kernel)
-  - [Repositories added (Apt)](#repo-add)
-  - [(Apt) Packages that we have modified, removed or added](#package-modified)
-    - [Packages we removed](#package-removed)
-    - [Packages we added](#package-added)
-    - [Packages we modified](#package-modified)
-  - [Repositories added (Flatpak)](#repo-add-flatpak)
-  - [Flatpak Packages that we have modified (\*\*), removed (-) or added (+) - Including dependancies](#repo-mod-flatpak)
-  - [Scripts and Files](#scripts)
-  - [Wallpapers](#wallpapers)
-  - [Themes](#themes)
-  - [Icons](#icons)
-  - [Plymouth Theme](#p-theme)
-  - [Ubiquity slideshow](#slide)
-  - [Others](#other)
-  - [How can I re-create CelOS 1?](#recreate)
-- [Made with love by Cob:web-Aclevo and our Open source contributors](#love)
-- [Discord](#discord)
-- [Screenshots](#screenshot)
-
-# How to recreate CelOS & Our package list <a id="recreate-celos-package-list"></a>
-
 Free and open source software is at the heart of Cob:web-Aclevo, and so we are going to ensure that all of the packages, scripts and tools provided pre and post installation are open source, free and findable. CelOS is licensed under the GPL3 license so you can copy, re-create, redistribute and contribute to CelOS!
 
-## Based on Ubuntu (20.04 LTS) <a id="ubuntu-based"></a>
+# What CelOS is built on
 
-CelOS, at it's fundementals, is very heavily based on Ubuntu, we will be using a large majority of Ubuntu's packages unless we have specified whether or not we have removed, replaced, modified or added new packages (and their dependancies).
+CelOS is fundamentally a flavor of Ubuntu. It is provided with the Ubuntu upstream repos and currently doesn't use any third-party repository. It provides and follows upstream software versions, including the kernel.
+CelOS is currently based on Ubuntu 20.04.X which is the current LTS version. The latest build is based on Ubuntu 20.04.FIXME, which ships kernel 5.FIXME.
 
-## Kernel 5.8.0-59-generic <a id="kernel"></a>
+## Details of changes from upstream
+### Packages
+- Ubuntu universe repository added.
+- apt packages **removed** : aisleriot, gnome-mahjongg, gnome-mines, gnome-sudoku, evince, libreoffice, rhythmbox, remmina, shotwell, thunderbird, totem, snapd, firefox, gedit, cheese, gnome-calculator, gnome-calendar, gnome-font-viewer, gnome-characters, ubuntu-session
+- apt packages **added** : gnome-tweak-tool, gnome-software, gnome-software-plugin-flatpak, Flatpak, gnome-session
+- flatpak repositories added : flathub
+- flatpak packages **added**, along with their dependencies : org.gtk.Gtk3theme.Adwaita-dark, org.gnome.Epiphany, org.gnome.gedit, org.gnome.Cheese, org.gnome.Calculator, org.gnome.clocks, org.gnome.Calendar, org.gnome.Photos, org.gnome.Characters, org.gnome.font-viewer, org.gnome.Contacts, org.gnome.Weather, com.github.tchx84.Flatseal
 
-We are using the same Kernel that Ubuntu 20.04 LTS uses. People on older builds can still receive Kernel updates through upstream and so we will try to ensure that this is kept up-to-date.
+### Configuration and data files
+Configuration, branding and other data files can be found in this repository and are added manually when building an image. A package will later be used for this purpose.
 
-## Repositories added (Apt): <a id="repo-add"></a>
-Added universe
-
-## (Apt) Packages that we have modified, removed or added (Dependancies come installed via apt) <a id="package-modified"></a>
-
-
-### Packages we removed: <a id="package-removed"></a>
-Removed aisleriot
-
-Removed gnome-mahjongg
-
-Removed gnome-mines
-
-Removed gnome-sudoku
-
-Removed evince
-
-Removed libreoffice
-
-Removed rhythmbox
-
-Removed remmina
-
-Removed shotwell
-
-Removed thunderbird
-
-Removed totem
-
-Removed snapd
-
-Removed firefox
-
-Removed gedit
-
-Removed cheese
-
-Removed gnome-calculator
-
-Removed gnome-calendar
-
-Removed gnome-font-viewer
-
-Removed gnome-characters
-
-Removed ubuntu-session
-
-### Packages we added: <a id="package-added"></a>
-Added gnome-tweak-tool
-
-Added gnome-software
-
-Added gnome-software-plugin-flatpak
-
-Added Flatpak
-
-Added gnome-session
-
-Added ffmpeg
-
-### Packages we modified: <a id="package-modified"></a>
-Modified gnome-shell-extensions [Installed via script: apt-get install $(apt search gnome-shell-extension | grep ^gnome | cut -d / -f1)]
-
-## Repositories added (Flatpak): <a id="repo-add-flatpak"></a>
-Added Flathub
-
-## Flatpak Packages that we have modified (**), removed (-) or added (+) - Including dependancies <a id="repo-mod-flatpak"></a>
-
-Added adwaita-dark
-
-Added Epiphany
-
-Added Gedit
-
-Added Cheese
-
-Added gnome-calculator
-
-Added gnome-clocks
-
-Added gnome-calendar
-
-Added gnome-photos
-
-Added gnome-characters
-
-Added gnome-font-viewer
-
-Added gnome-contacts
-
-Added gnome-weather
-
-Added gnome-clocks
-
-Added Flatseal
-
-## Scripts and files <a id="scripts"></a>
-
-/etc/skel/ is a directory where items will be placed in your "home" directory post install
-
-.bashrc -> /etc/skel
-
-gnome-initial-setup-done -> /etc/skel/.config/
-
-Wallpapers have been placed in -> /etc/skel/Pictures/ (~/Pictures)
-
-## Wallpapers: <a id="wallpapers"></a>
-Wallpapers have been placed in both /usr/share/backgrounds and ~/Pictures/
-
-You can find the folder for our Wallpapers in the repository.
-
-## Themes <a id="themes"></a>
 
 We are using the default GTK and Shell theme for GNOME, "Adwaita"
-https://gitlab.gnome.org/GNOME/gtk/tree/master/gtk/theme/Adwaita
-
-## Icons: <a id="icons"></a>
 
 We are using the "Adwaita icon theme" icon theme
-https://gitlab.gnome.org/GNOME/adwaita-icon-theme
-
-## Plymouth Theme <a id="p-theme"></a>
-
-We are using a modified version of the Weyll-logo theme, which can be found on our GitHub
 
 Original theme: https://www.gnome-look.org/p/1000034/
 
 Once this theme has been placed in /usr/share/plymouth you need to run some commands to update initramfs;
 
-```
-update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/weyll-logo/weyll-logo.plymouth 200
-update-alternatives --set default.plymouth /usr/share/plymouth/themes/weyll-logo/weyll-logo.plymouth
-update-initramfs -u
-update-grub
-apt update && apt upgrade
-```
-
-## Ubiquity slideshow <a id="slide"></a>
-
-We have modified Ubiquity to display text and images for CelOS rather than Ubuntu. The files we have used are here:
 
 https://github.com/Cobweb-Development/celos/tree/main/Assets/ubiquity-slideshow - /usr/share/ubiquity-slideshow/
-
-`/usr/share/ubuiqity-slideshow/` was given 777 permissions during this stage and removed after we have changed the files within `/usr/share/ubiquity-slideshow/`
-
-## Others <a id="other"></a>
 
 We have modified the file in "/usr/share/glib-2.0/schemas/10-ubuntu-settings.gschema.override" in order for our Adwaita Icons, Wallpaper, and Adwaita-dark shell theme to apply by default.
 
 The Grub has been modified to say "CelOS 1 GNU/Linux", the "grub" folder in "Assets" has two files related to modifying grub.
-
-The file called "grub" should be placed in `/etc/default`
-
-The file called custom.cfg should be placed in `/boot/grub`
 
 Along with this ubuntu.seed and grub.cfg were edited in the "seed" and "grub" pages of the Cubic editor.
 
@@ -207,14 +51,45 @@ The plymouth theme and GDM logo have been modified
 
 GDM was modified by using the default theme, to change it run `update-alternatives --config gdm3-theme.gresource`
 
-A one-time startup script in the "Assets" folder called "apply-theme.sh" has been placed in `/etc/profile.d/`
+```
+update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/weyll-logo/weyll-logo.plymouth 200
+update-alternatives --set default.plymouth /usr/share/plymouth/themes/weyll-logo/weyll-logo.plymouth
+update-initramfs -u
+update-grub
+apt update && apt upgrade
+```
+***/FIXME***
 
-## How can I re-create CelOS 1? <a id="recreate"></a>
+## Building a CelOS image
 
-If you are on an Ubuntu-based distribution we can recommend Cubic as a live-ISO editor, and what we are currently using to create the distribution via a chroot environment.
-https://launchpad.net/cubic
+CelOS images are built by modifying an Ubuntu image using Cubic.
 
-# Made with love by Cob:web-Aclevo and our Open source contributors: <a id="love"></a>
+### Set up Cubic
+To use Cubic to build CelOS, you'll need a computer or virtual machine running a recent version of Ubuntu with a graphical environment. Follow the instructions on [Cubic's homepage](https://launchpad.net/cubic) to set it up.
+
+### Base Ubuntu image
+Download [ubuntu-20.04.3-desktop-amd64.iso](https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-desktop-amd64.iso) \([torrent](http://releases.ubuntu.com/focal/ubuntu-20.04.3-desktop-amd64.iso.torrent)). This will be used as the base image for CelOS.
+
+### Copying files
+
+```
+celos/config/.bashrc -> /etc/skel/
+celos/config/gnome-initial-setup-done -> /etc/skel/.config
+celos/config/grub/grub -> /etc/default/grub/
+celos/config/grub/custom.cfg -> /boot/grub/
+celos/data/weyll-logo -> /usr/share/plymouth/themes/
+celos/data/apply-theme.sh -> /etc/profile.d/
+celos/artwork/wallpapers/* -> /usr/share/backgrounds/celos/
+celos/artwork/wallpapers/* /etc/skel/Pictures/
+
+```
+
+
+***FIXME***
+
+# Made with love by Cob:web-Aclevo and our Open source contributors:
+
+***FIXME: Use all-contributors?***
 
 [whyAdamSalt](https://github.com/whyAdamSalt) - Lead Developer
 
