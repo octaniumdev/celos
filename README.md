@@ -27,6 +27,9 @@ CelOS is currently based on Ubuntu 20.04.X which is the current LTS version. The
 ### Configuration and data files
 Configuration, branding and other data files can be found in this repository and are added manually when building an image. A package will later be used for this purpose.
 
+***FIXME***
+
+Add the universe repository, remove and add necessaery packages
 
 We are using the default GTK and Shell theme for GNOME, "Adwaita"
 
@@ -70,6 +73,8 @@ To use Cubic to build CelOS, you'll need a computer or virtual machine running a
 ### Base Ubuntu image
 Download [ubuntu-20.04.3-desktop-amd64.iso](https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-desktop-amd64.iso) \([torrent](http://releases.ubuntu.com/focal/ubuntu-20.04.3-desktop-amd64.iso.torrent)). This will be used as the base image for CelOS.
 
+***FIXME/***
+
 ### Copying files
 
 ```
@@ -77,6 +82,7 @@ celos/config/.bashrc -> /etc/skel/
 celos/config/gnome-initial-setup-done -> /etc/skel/.config
 celos/config/grub/grub -> /etc/default/grub/
 celos/config/grub/custom.cfg -> /boot/grub/
+celos/data/ubiquity-slideshow/* -> /usr/share/ubiquity-slideshow/
 celos/data/weyll-logo -> /usr/share/plymouth/themes/
 celos/data/apply-theme.sh -> /etc/profile.d/
 celos/artwork/wallpapers/* -> /usr/share/backgrounds/celos/
@@ -85,7 +91,7 @@ celos/artwork/wallpapers/* /etc/skel/Pictures/
 ```
 
 
-***FIXME***
+***FIXME/***
 
 # Made with love by Cob:web-Aclevo and our Open source contributors:
 
