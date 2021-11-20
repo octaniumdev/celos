@@ -44,7 +44,7 @@ We are using the same Kernel that Ubuntu 20.04 LTS uses. People on older builds 
 ## Repositories added (Apt): <a id="repo-add"></a>
 Added universe
 
-## (Apt) Packages that we have modified, removed or added [see here]() <a id="package-modified"></a>
+## (Apt) Packages that we have modified, removed or added [see here](https://github.com/VojtechTM/celos/blob/main/docs/packages.md) <a id="package-modified"></a>
 
 ## Scripts and files <a id="scripts"></a>
 
